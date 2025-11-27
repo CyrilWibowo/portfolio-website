@@ -55,52 +55,6 @@ portfolio-website/
 └── README.md
 ```
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/CyrilWibowo/portfolio-website.git
-cd portfolio-website
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to `http://localhost:5173`
-
-### Building for Production
-
-```bash
-npm run build
-```
-
-### Styling
-
-The website uses CSS variables for easy theming. Edit the root variables in your main CSS file:
-
-```css
-:root {
-  --accent-primary: #your-color;
-  --bg-primary: #your-color;
-  --text-primary: #your-color;
-  /* ... other variables */
-}
-```
-
 ## Responsive Breakpoints
 
 - Mobile: < 480px
