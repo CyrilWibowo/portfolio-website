@@ -24,7 +24,8 @@ export const profileData = {
     "Scripting",
     "Algorithms",
     "Data Structures",
-    "Cloud Services"
+    "Cloud Services",
+    "SQL"
   ],
 
     contact: {
@@ -35,20 +36,20 @@ export const profileData = {
     socials: [
       {
         name: "Facebook",
-        url: "https://facebook.com/yourusername",
+        url: "https://www.facebook.com/cyril.wibowo.37/",
         icon: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
       },
       {
         name: "GitHub",
-        url: "https://github.com/yourusername",
+        url: "https://github.com/CyrilWibowo",
         icon: "https://cdn-icons-png.flaticon.com/512/889/889111.png"
       },
       {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/yourusername",
+        url: "https://www.linkedin.com/in/cyril-wibowo-799712265/",
         icon: "https://cdn-icons-png.flaticon.com/512/174/174857.png"
       }
     ],
 
-  resumeUrl: "/resume.pdf" // Add your resume PDF to the public folder
+  resumeUrl: "/resume.pdf"
 };
