@@ -1,0 +1,50 @@
+export const projectsData = [
+  {
+    id: 1,
+    name: "Airbnb Replica",
+    description: "Functional full-stack accommodation booking platform built with ReactJS and Express, similar to Airbnb. Single-page application allows users to list properties, search for accommodations, make bookings, and manage their hosting business",
+    thumbnail: "https://a0.muscache.com/pictures/09104ce1-4a66-4284-80b2-ad0ea3e46c24.jpg",
+    tags: ["Full Stack", "Frontend", "Backend", "ReactJS", "HTML5", "CSS3", "Vite", "Node.js", "Express.js", "JavaScript", "npm"],
+    githubUrl: "https://github.com/CyrilWibowo/airbnb-replica",
+  },
+  {
+    id: 2,
+    name: "Invoice Management System",
+    description: "Backend for a Node.js backend application for creating and managing invoices with built-in validation and UBL XML conversion capabilities. Deployed using Docker.",
+    thumbnail: "https://images.ctfassets.net/lzny33ho1g45/75RuLjSNuOpHQ4XT6DfHXk/faa9187719bdf3b2b861525ecf11de3f/invoice-template.jpg?fm=jpg&q=31&fit=thumb&w=1520&h=760",
+    tags: ["Backend", "Node.js", "Express.js", "Typescript", "Jest", "Supertest", "REST API", "Docker", "Docker Compose", "Data Validation", "npm"],
+    githubUrl: "https://github.com/CyrilWibowo/invoice-management-system",
+  },
+  {
+    id: 3,
+    name: "Excel to Data Report Generator",
+    description: "A Python application for processing and analysing financial data from Excel spreadsheets. This tool aggregates transaction data by branch and account, with specialized handling for tyre-related transactions.",
+    thumbnail: "https://static.vecteezy.com/system/resources/previews/046/342/561/non_2x/financial-report-concept-business-analytics-accounting-logo-vector.jpg",
+    tags: ["Backend", "Python", "Pandas", "Data Processing", "Excel Automation", "Data Structures", "Scripting", "Object-Oriented Programming"],
+    githubUrl: "https://github.com/CyrilWibowo/financial-data-report-generator",
+  },
+  {
+    id: 4,
+    name: "Discord Bot",
+    description: "Experimental discord-bot that dynamically creates, deletes and edits user created commands. Have fun with other commands or just create your own.",
+    thumbnail: "https://graphicsprings.com/wp-content/uploads/2023/08/image-29-1024x576.png",
+    tags: ["Backend", "Node.js", "Express.js", "Javascript", "discord.js v14", "REST API", "npm"],
+    githubUrl: "https://github.com/CyrilWibowo/hotel-website-page-replica",
+  },
+  {
+    id: 5,
+    name: "Hotel Website Page Replica",
+    description: "Pixel-perfect recreation of a hotel booking website landing page, showcasing Gold Coast beach accommodation deals with a professional travel booking interface.",
+    thumbnail: "https://img.freepik.com/premium-vector/hotel-pin-point-marker-logo-design-icon_523404-250.jpg",
+    tags: ["Frontend", "HTML5", "CSS3", "UI/UX Design"],
+    githubUrl: "https://github.com/CyrilWibowo/discord-bot",
+  },
+  {
+    id: 6,
+    name: "News Website Page Replica",
+    description: "Fully responsive subscription pricing page for a news publication, featuring three subscription tiers with detailed benefits and a clean, professional design that adapts seamlessly between desktop and mobile layouts.",
+    thumbnail: "https://www.shutterstock.com/shutterstock/videos/3451424635/thumb/4.jpg?ip=x480",
+    tags: ["Frontend", "HTML5", "CSS3", "UI/UX Design"],
+    githubUrl: "https://github.com/CyrilWibowo/news-website-page-replica",
+  }
+];

@@ -1,0 +1,211 @@
+.profile {
+  background-color: var(--bg-secondary);
+  min-height: 100vh;
+  width: 500px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow-y: auto;
+  border-left: 1px solid var(--border-color);
+  z-index: 100;
+}
+
+.social-icon {
+  font-size: var(--font-size-base);
+  margin-right: var(--space-xs);
+}
+
+.profile-container {
+  padding: var(--space-2xl) var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+/* Profile Image */
+.profile-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--space-md);
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+  border: 3px solid var(--accent-primary);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Profile Header */
+.profile-header {
+  text-align: center;
+}
+
+.profile-name {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-xs);
+  color: var(--text-primary);
+}
+
+.profile-title {
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+  margin-bottom: 0;
+}
+
+/* Profile Sections */
+.profile-section {
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.profile-section:last-of-type {
+  border-bottom: none;
+}
+
+.profile-section-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-md);
+  color: var(--text-primary);
+}
+
+.profile-about {
+  font-size: var(--font-size-sm);
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 0;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  justify-content: center;
+}
+
+.skill-tag {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-fast);
+}
+
+.skill-tag:hover {
+  background-color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  transform: translateY(-2px);
+}
+
+/* Contact Info */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.contact-icon {
+  font-size: var(--font-size-xl);
+}
+
+.contact-label {
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  min-width: 70px;
+  font-size: var(--font-size-base);
+}
+
+.contact-value {
+  color: var(--text-secondary);
+  font-size: var(--font-size-base);
+}
+
+/* Social Logos */
+.social-logos {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-lg);
+  padding-top: var(--space-md);
+}
+
+.social-logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.social-logo-link:hover {
+  transform: translateY(-4px);
+}
+
+.social-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: all var(--transition-fast);
+}
+
+.social-logo:hover {
+  opacity: 0.7;
+}
+
+/* Resume Button */
+.resume-button {
+  display: block;
+  width: 100%;
+  padding: var(--space-md);
+  background-color: var(--accent-primary);
+  color: white;
+  text-align: center;
+  border-radius: var(--radius-md);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-base);
+  transition: all var(--transition-fast);
+  border: 2px solid var(--accent-primary);
+  cursor: pointer;
+}
+
+.resume-button:hover {
+  background-color: var(--accent-hover);
+  border-color: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .profile-container {
+    padding: var(--space-xl) var(--space-lg);
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+}
